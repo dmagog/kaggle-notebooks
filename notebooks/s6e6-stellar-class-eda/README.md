@@ -4,6 +4,7 @@
 
 - **Оригинал на Kaggle:** [an-almost-exhaustive-stellar-class-eda](https://www.kaggle.com/code/georgymamarin/an-almost-exhaustive-stellar-class-eda-final) · Notebook 🥉
 - **Ноутбук в репозитории:** [stellar-class-eda.ipynb](stellar-class-eda.ipynb)
+- **Чистый PDF (служебный код скрыт):** [stellar-class-eda.pdf](stellar-class-eda.pdf)
 
 Что показываю:
 - **разделение классов по цветам** (u−g vs g−r) — три популяции расходятся ещё до модели;
