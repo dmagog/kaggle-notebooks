@@ -13,7 +13,8 @@ the scripts here, run against the public downloads they name in their docstrings
 | `scripts/formula_backtest.py` | the seven-board back-test behind the discussion-734005 reply: band correlations, the noise-only null, survival by public band |
 | `scripts/gapcurve.py` | section 11's seven resampled pairs: sd of the gap as a function of pair correlation |
 | `scripts/ext_gate.py`, `scripts/ext_arms.py` | the external-library screens and paired-fold arms that fed the pool |
-| `scripts/gate_split.py`, `scripts/gate10.py` | section 9's off-notebook runs: the capacity-versus-encoding split and the ten-fold check |
+| `scripts/reference.py`, `scripts/gate.py` | the shared harness the gate scripts import: the weak and strong references, features, folds |
+| `scripts/gate_split.py`, `scripts/gate10.py` | section 9's off-notebook runs: the slack split and the ten-fold check (the capacity-versus-encoding arms live in `reference.py`) |
 | `scripts/check_names.py` | the pre-push checker for notebook cells: names loaded before anything binds them, and helpers clobbered by later cells |
 
 Data inputs: the competition files, [the S6 leaderboards dataset](https://www.kaggle.com/datasets/georgymamarin/playground-series-s6-leaderboards),
