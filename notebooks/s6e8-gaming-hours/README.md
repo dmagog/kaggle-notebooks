@@ -1,7 +1,7 @@
-# S6E8: why gaming_hours helps but adds nothing new — measurement scripts
+# S6E8: will your 0.971 survive the private split? — measurement scripts
 
 The notebook lives on Kaggle:
-[why gaming_hours helps but adds nothing new](https://www.kaggle.com/code/georgymamarin/s6e8-why-gaming-hours-helps-but-adds-nothing-new).
+[S6E8: will your 0.971 survive the private split?](https://www.kaggle.com/code/georgymamarin/s6e8-will-your-0-971-survive-the-private-split).
 Every number its prose types in by hand, rather than computes in a cell, is reproduced by one of
 the scripts here, run against the public downloads they name in their docstrings.
 
