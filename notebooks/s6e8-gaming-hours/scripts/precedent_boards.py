@@ -173,7 +173,8 @@ for _f in _snaps:
 print("  span of ranks 1-300, by snapshot: " +
       ", ".join(f"{d} -> {v:.5f}" for d, v in _sp))
 
-_users = glob.glob("ext/mk/Users.csv") or glob.glob("../s6e8/ext/mk/Users.csv")
+_users = [u for u in (glob.glob("ext/mk/Users.csv") + glob.glob("../s6e8/ext/mk/Users.csv"))
+          if os.path.isfile(u)]     # glob returns dangling symlinks; isfile follows and rejects them
 if _users:
     _b = load(_snaps[-1])
     _top = _b[_b.Rank <= 10]
