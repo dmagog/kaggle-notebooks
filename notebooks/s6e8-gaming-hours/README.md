@@ -15,6 +15,7 @@ the scripts here, run against the public downloads they name in their docstrings
 | `scripts/ext_gate.py`, `scripts/ext_arms.py` | the external-library screens and paired-fold arms that fed the pool |
 | `scripts/reference.py`, `scripts/gate.py` | the shared harness the gate scripts import: the weak and strong references, features, folds |
 | `scripts/gate_split.py`, `scripts/gate10.py` | section 9's off-notebook runs: the slack split and the ten-fold check (the capacity-versus-encoding arms live in `reference.py`) |
+| `scripts/cushion_survival.py` | the comment-thread answer on top-5% cushions: how often 1-5 / 6-15 / 16-40 ranks inside the public 5% line survived the private split on the seven finished boards, with the single-submission selection control |
 | `scripts/check_names.py` | the pre-push checker for notebook cells: names loaded before anything binds them, and helpers clobbered by later cells |
 
 Data inputs: the competition files, [the S6 leaderboards dataset](https://www.kaggle.com/datasets/georgymamarin/playground-series-s6-leaderboards),
