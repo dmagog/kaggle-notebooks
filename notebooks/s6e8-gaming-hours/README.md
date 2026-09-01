@@ -1,7 +1,7 @@
-# S6E8: what eight finished boards say about shakeups — measurement scripts
+# S6E8: which ideas paid, and which ones fooled me — measurement scripts
 
 The notebook lives on Kaggle:
-[S6E8: what eight finished boards say about shakeups](https://www.kaggle.com/code/georgymamarin/s6e8-will-your-0-971-survive-the-private-split).
+[S6E8: which ideas paid, and which ones fooled me](https://www.kaggle.com/code/georgymamarin/s6e8-which-ideas-paid-and-which-ones-fooled-me).
 Every number its prose types in by hand, rather than computes in a cell, is reproduced by one of
 the scripts here, run against the public downloads they name in their docstrings.
 
