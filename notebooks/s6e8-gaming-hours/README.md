@@ -1,7 +1,7 @@
-# S6E8: will your 0.971 survive the private split? — measurement scripts
+# S6E8: what eight finished boards say about shakeups — measurement scripts
 
 The notebook lives on Kaggle:
-[S6E8: will your 0.971 survive the private split?](https://www.kaggle.com/code/georgymamarin/s6e8-will-your-0-971-survive-the-private-split).
+[S6E8: what eight finished boards say about shakeups](https://www.kaggle.com/code/georgymamarin/s6e8-will-your-0-971-survive-the-private-split).
 Every number its prose types in by hand, rather than computes in a cell, is reproduced by one of
 the scripts here, run against the public downloads they name in their docstrings.
 
@@ -16,6 +16,7 @@ the scripts here, run against the public downloads they name in their docstrings
 | `scripts/reference.py`, `scripts/gate.py` | the shared harness the gate scripts import: the weak and strong references, features, folds |
 | `scripts/gate_split.py`, `scripts/gate10.py` | section 9's off-notebook runs: the slack split and the ten-fold check (the capacity-versus-encoding arms live in `reference.py`) |
 | `scripts/cushion_survival.py` | the comment-thread answer on top-5% cushions: how often 1-5 / 6-15 / 16-40 ranks inside the public 5% line survived the private split on the seven finished boards, with the single-submission selection control |
+| `scripts/resolve_prediction.py` | section 12c's resolution: scores the three predictions 12b registered before the split, and replays any finished episode (`--test S6E7`) to check the resolver against a published answer |
 | `scripts/check_names.py` | the pre-push checker for notebook cells: names loaded before anything binds them, and helpers clobbered by later cells |
 
 Data inputs: the competition files, [the S6 leaderboards dataset](https://www.kaggle.com/datasets/georgymamarin/playground-series-s6-leaderboards),
